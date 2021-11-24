@@ -18,17 +18,6 @@
   require_once __DIR__ . '/../header.php';
 ?>  
 
-<!-- <!DOCTYPE  html>    
-<html lang="ja">    
-<head>    
-<meta charset="UTF-8">    
-<title>商品一覧</title>   
-<link rel="stylesheet" href="../css/minishop.css">    
-</head>   
-<body>    
-<h3>ジャンル別商品一覧</h3>    
-3組　2番　岩井瑛斗<br>   
-<hr>     -->
 <table>   
 <tr><th>&nbsp;</th><th>商品名</th><th>メーカー・著者<br>アーティスト</th><th>価格</th><th>詳細</th></tr>    
 <?php   
@@ -49,7 +38,4 @@
 <?php
     require_once __DIR__ . '/../footer.php';
 ?>
-<!-- <br>    
-<a href="../index.php">ジャンル選択に戻る</a>    
-</body>   
-</html>  -->  
+

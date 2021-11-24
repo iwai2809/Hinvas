@@ -1,10 +1,13 @@
 <?php
+  session_start();
+
   // Cartオブジェクトを生成する
   require_once __DIR__ . '/../classes/cart.php';
   $cart = new Cart();
 
+  require_once __DIR__ . '/../header.php';
   // カート内の全ての商品を取り出す
-  $cartItems = $cart->getItems();
+  $cartItems = $cart->getItems($_SESSION['userId']);
 
   // Orderオブジェクトを生成する
   require_once __DIR__ . '/../classes/order.php';
@@ -12,7 +15,7 @@
 
   // カート内の全ての商品を注文内容として登録する
   // 注文テーブルordersと注文詳細テーブルorderdetailsに注文内容を登録する
-  $orderId = $order->addOrder($cartItems);
+  $orderId = $order->addOrder($_SESSION['userId'],$cartItems);
 ?>
 <!DOCTYPE  html>
 <html lang="ja">
@@ -22,9 +25,7 @@
 <link rel="stylesheet" href="../css/minishop.css">
 </head>
 <body>
-<h3>注文</h3>
-3組　2番　岩井瑛斗<br>
-<hr>
+
 <p>お買い上げありがとうございました。<br>
 またのご利用をお待ちしております。</p>
 <table>
@@ -50,10 +51,14 @@
 </tr>
 </table>
 <br>
-<a href="../index.php">ジャンル選択に戻る</a>&nbsp;&nbsp;<a href="order_history.php">注文履歴</a>
+<?php
+    require_once __DIR__ . '/../footer.php';
+?>
+
+<!-- <a href="../index.php">ジャンル選択に戻る</a>&nbsp;&nbsp;<a href="order_history.php">注文履歴</a> -->
 <?php
   // カート内の全ての商品を削除する
-  $cart->clearCart();
+  $cart->clearCart($_SESSION['userId']);
 ?>
 </body>
 </html>

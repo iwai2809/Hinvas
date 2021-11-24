@@ -19,9 +19,9 @@
 
     $_SESSION['userId']=$userId;
     $_SESSION['userName']=$userName;
-    $_SESSION['kana']=$result;
-    $_SESSION['zip']=$result;
-    $_SESSION['address']=$result;
+    $_SESSION['kana']=$result['kana'];
+    $_SESSION['zip']=$result['zip'];
+    $_SESSION['address']=$result['address'];
     $_SESSION['tel']=$result['tel'];
 
     setcookie("userId",$userId,time()+60*60*24*14);
