@@ -1,5 +1,6 @@
 package com.example.hinvas
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var ans: TextView
     lateinit var clickButton: Button
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -23,6 +25,13 @@ class MainActivity : AppCompatActivity() {
         //Widget初期化
         ans = findViewById<View>(R.id.txt01) as TextView
         clickButton = findViewById<View>(R.id.btn01) as Button
+        val transitionText= findViewById<TextView>(R.id.transition_text)
+        val homeBtn=findViewById<Button>(R.id.home_btn)
+        val listBtn=findViewById<Button>(R.id.list_btn)
+        val favoriteBtn=findViewById<Button>(R.id.favorite_btn)
+        val scheduleBtn=findViewById<Button>(R.id.schedule_btn)
+        val settingsBtn=findViewById<Button>(R.id.settings_btn)
+
 
         //ボタンクリック
 
@@ -45,5 +54,40 @@ class MainActivity : AppCompatActivity() {
                 Log.e("Request", e.message!!)
             }
         })
+
+        //ホームに遷移
+        homeBtn.setOnClickListener{
+            transitionText.setText(R.string.text_home)
+
+        }
+
+        //一覧画面に遷移
+        listBtn.setOnClickListener{
+//            transitionText.setText(R.string.text_list)
+            val  list_Intent =Intent(this,ListActivity::class.java)
+            startActivity(list_Intent)
+        }
+
+        //お気に入りリストに遷移
+        favoriteBtn.setOnClickListener{
+//            transitionText.setText(R.string.text_favorite)
+            val  favorite_Intent=Intent(this,FavoriteActivity::class.java)
+            startActivity(favorite_Intent)
+        }
+
+        //schedule画面に遷移
+        scheduleBtn.setOnClickListener{
+//            transitionText.setText(R.string.text_schedule)
+            val schedule_Intent=Intent(this,ScheduleActivity::class.java)
+            startActivity(schedule_Intent)
+        }
+
+        //設定画面に遷移
+        settingsBtn.setOnClickListener{
+//            transitionText.setText(R.string.text_settings)
+            val settings_Intent=Intent(this,SettingsActivity::class.java)
+            startActivity(settings_Intent)
+        }
+
     }
 }

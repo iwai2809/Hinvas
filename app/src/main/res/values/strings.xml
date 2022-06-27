@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HinVas</string>
+    <string name="text_home">ホーム画面に変わりました</string>
+    <string name="text_list">一覧画面に変わりました</string>
+    <string name="text_favorite">お気に入り画面に変わりました</string>
+    <string name="text_schedule">スケジュール画面に変わりました</string>
+    <string name="text_settings">設定画面に変わりました</string>
 </resources>
