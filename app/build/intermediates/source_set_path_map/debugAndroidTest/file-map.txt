@@ -1,0 +1,7 @@
+com.example.hinvas.test.app-androidTest-0 C:\VScode_HinVas\app\build\generated\res\resValues\androidTest\debug
+com.example.hinvas.test.app-androidTest-1 C:\VScode_HinVas\app\build\generated\res\rs\androidTest\debug
+com.example.hinvas.test.app-mergeDebugAndroidTestResources-2 C:\VScode_HinVas\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.hinvas.test.app-mergeDebugAndroidTestResources-3 C:\VScode_HinVas\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.hinvas.test.app-merged_res-4 C:\VScode_HinVas\app\build\intermediates\merged_res\debugAndroidTest
+com.example.hinvas.test.app-androidTest-5 C:\VScode_HinVas\app\src\androidTest\res
+com.example.hinvas.test.app-androidTestDebug-6 C:\VScode_HinVas\app\src\androidTestDebug\res

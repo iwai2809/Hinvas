@@ -1,0 +1,390 @@
+[
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_streamer_list_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\streamer_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_black_side.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_black_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_firestore_test.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_firestore_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_activity_home_filter.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\activity_home_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_activity_filter.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\activity_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_twitch_btn.jpg.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_twitch_btn.jpg"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_setting.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_niconico.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_niconico.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_activity_favorite_notice_list_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\activity_favorite_notice_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_activity_twitcasting_api.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\activity_twitcasting_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_notice_list_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\notice_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_parent_favorite.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\parent_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_favorite.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_notice_list_add.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_notice_list_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_black.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_twitcas_btn.jpg.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_twitcas_btn.jpg"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_twicas.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_twicas.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_favorite_thumbnail.jpg.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\favorite_thumbnail.jpg"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_streamer_list.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_streamer_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_streamerlist.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_streamerlist.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_deletebtn.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_deletebtn.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_error.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_error.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_video.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_child_favorite.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\child_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_live.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_live.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_setting.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_empty_navigation_bar.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\empty_navigation_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\navigation_navigation_graph.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\navigation\\navigation_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_favorite.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_favorite.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_home_list_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\home_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_appicon.jpg.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_appicon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_edit.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\menu_home_filter_menu.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\menu\\home_filter_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_error_image.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\error_image.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_back_btn.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_back_btn.png"
+    },
+    {
+        "merged": "com.example.hinvas.app-merged_res-54:/layout_activity_filter.xml.flat",
+        "source": "com.example.hinvas.app-main-56:/layout/activity_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_add_btn.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_add_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable-v24_ic_folder.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable-v24\\ic_folder.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_live.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_youtube_btn.jpg.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_youtube_btn.jpg"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_niconico_btn.jpg.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_niconico_btn.jpg"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_header.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_youtube.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_youtube.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable-v24_ic_niconico_filter.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable-v24\\ic_niconico_filter.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_video.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_video.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_youtube.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_youtube.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_twitch.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_twitch.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-pngs-49:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_notice_list.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_notice_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_dialog.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\menu_menu_option.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\menu\\menu_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable-v24_ic_twitcas_filter.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable-v24\\ic_twitcas_filter.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_filter.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_filter.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_fragment_schedule.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\fragment_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_border_style_error.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\border_style_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_favorite_list_item.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\favorite_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable-v24_ic_twitch.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable-v24\\ic_twitch.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_ic_suchedule.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\ic_suchedule.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\drawable_clear_button.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\drawable\\clear_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\layout_activity_streamer_add.xml.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\layout\\activity_streamer_add.xml"
+    },
+    {
+        "merged": "com.example.hinvas.app-merged_res-54:/layout_activity_home_filter.xml.flat",
+        "source": "com.example.hinvas.app-main-56:/layout/activity_home_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-merged_res-54:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\2835a\\.gradle\\daemon\\7.4\\com.example.hinvas.app-main-56:\\mipmap-hdpi\\ic_launcher_round.webp"
+    }
+]

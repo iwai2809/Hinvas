@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/youtube_login_btn"
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border_style_youtube"
+        android:drawableStart="@drawable/ic_youtube_btn"
+        android:text="Login with Youtube"
+        android:textColor="#050505"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/twitch_login_btn"
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_style_twitch"
+        android:drawableStart="@drawable/ic_twitch_btn"
+        android:text="Login with Twitch"
+        android:textColor="#050505"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtube_login_btn" />
+
+
+    <Button
+        android:id="@+id/twicasting_login_btn"
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_style_twicas"
+        android:drawableStart="@drawable/ic_twitcas_btn"
+        android:text="Login with Twicasting"
+        android:textColor="#050505"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twitch_login_btn" />
+
+    <Button
+        android:id="@+id/niconico_login_btn"
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_style_niconico"
+        android:drawableStart="@drawable/ic_niconico_btn"
+        android:text="Login with ニコニコ"
+        android:textColor="#050505"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twicasting_login_btn" />
+
+    <TextView
+        android:id="@+id/streamer_text"
+        android:layout_width="102dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="24dp"
+        android:text="投稿者登録"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/niconico_login_btn" />
+
+    <EditText
+        android:id="@+id/add_text_streamer"
+        android:layout_width="342dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="登録したいチャンネルURLを入力"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streamer_text" />
+
+    <TextView
+        android:id="@+id/channel_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="チャンネルURL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streamer_text" />
+
+    <Button
+        android:id="@+id/add_streamer_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="追加"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_text_streamer" />
+
+<!--    <Button-->
+<!--        android:id="@+id/streamerlist_back_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:drawableLeft="@drawable/ic_back_btn"-->
+<!--        android:text="戻る"-->
+<!--        android:textColor="#4c4c4c"-->
+<!--        android:textSize="14sp"-->
+<!--        app:backgroundTint="#ffff"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

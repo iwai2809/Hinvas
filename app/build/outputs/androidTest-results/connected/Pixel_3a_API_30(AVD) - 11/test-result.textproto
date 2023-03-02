@@ -1,0 +1,73 @@
+# 2022-09-02T01:16:24.670Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.example.hinvas"
+    test_method: "Test_Youtube"
+    start_time {
+      seconds: 1662081348
+      nanos: 684000000
+    }
+    end_time {
+      seconds: 1662081383
+      nanos: 55000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\nGot: view.getText() was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\" transformed text was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\"\nView Details: MaterialTextView{id=2131231091, res-name=result_txt, visibility=VISIBLE, width=738, height=53, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@c83d616, tag=null, root-is-layout-requested=false, has-input-connection=false, x=171.0, y=275.0, text=\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261, input-type=0, ime-target=false, has-links=false}\n\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.hinvas.MainActivityTest.Test_Youtube(MainActivityTest.kt:35)\n... 32 trimmed\nCaused by: junit.framework.AssertionFailedError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\nGot: view.getText() was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\" transformed text was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\"\nView Details: MaterialTextView{id=2131231091, res-name=result_txt, visibility=VISIBLE, width=738, height=53, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@c83d616, tag=null, root-is-layout-requested=false, has-input-connection=false, x=171.0, y=275.0, text=\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261, input-type=0, ime-target=false, has-links=false}\n\nat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\nat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:223)\nat android.app.ActivityThread.main(ActivityThread.java:7656)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)"
+    error_type: "junit.framework.AssertionFailedError"
+    stack_trace: "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\nGot: view.getText() was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\" transformed text was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\"\nView Details: MaterialTextView{id=2131231091, res-name=result_txt, visibility=VISIBLE, width=738, height=53, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@c83d616, tag=null, root-is-layout-requested=false, has-input-connection=false, x=171.0, y=275.0, text=\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261, input-type=0, ime-target=false, has-links=false}\n\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.hinvas.MainActivityTest.Test_Youtube(MainActivityTest.kt:35)\n... 32 trimmed\nCaused by: junit.framework.AssertionFailedError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"\343\202\250\343\203\251\343\203\274\"\nGot: view.getText() was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\" transformed text was \"\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261\"\nView Details: MaterialTextView{id=2131231091, res-name=result_txt, visibility=VISIBLE, width=738, height=53, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@c83d616, tag=null, root-is-layout-requested=false, has-input-connection=false, x=171.0, y=275.0, text=\343\200\214\345\212\207\345\240\264\347\211\210 \351\273\222\345\255\220\343\201\256\343\203\220\343\202\271\343\202\261 LAST GAME\343\200\215\347\211\271\345\240\261, input-type=0, ime-target=false, has-links=false}\n\nat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\nat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:223)\nat android.app.ActivityThread.main(ActivityThread.java:7656)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\VScode_HinVas\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_3a_API_30(AVD) - 11\\logcat-com.example.hinvas.MainActivityTest-Test_Youtube.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\VScode_HinVas\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_3a_API_30(AVD) - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\VScode_HinVas\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_3a_API_30(AVD) - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\VScode_HinVas\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_3a_API_30(AVD) - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\VScode_HinVas\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_3a_API_30(AVD) - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

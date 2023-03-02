@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="ホーム"/>
+    <item
+        android:id="@+id/streamerListFragment"
+        android:icon="@drawable/ic_streamerlist"
+        android:title="登録者一覧"/>
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/ic_favorite"
+        android:title="通知リスト"/>
+    <item
+        android:id="@+id/scheduleFragment"
+        android:icon="@drawable/ic_suchedule"
+        android:title="スケジュール"/>
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_setting"
+        android:title="デバッグ"/>
+</menu>

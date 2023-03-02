@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/HomeFilterBackBtn"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:drawableLeft="@drawable/ic_back_btn"-->
+<!--                android:text="@string/back"-->
+<!--                android:textColor="#4c4c4c"-->
+<!--                android:textSize="14sp"-->
+<!--                app:backgroundTint="#ffff"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+<!--        </RelativeLayout>-->
+
+        <LinearLayout
+            android:id="@+id/HomeSortLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sort"
+                android:textColor="#7f7fff"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/HomeSortSpinner"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/HomePeriodLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/HomePeriodText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/period"
+                android:textColor="#7f7fff"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/HomePeriodSpinner"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/MoviesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/MovieText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genre"
+                android:textColor="#7f7fff"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/MovieSpinner"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/HomePlatformLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/HomePlatformText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/platform"
+                android:textColor="#7f7fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/HomeYoutubeBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/white"
+                android:contentDescription="@string/youtube"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_youtube" />
+
+            <ImageButton
+                android:id="@+id/HomeTwitchBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/white"
+                android:contentDescription="@string/twitch"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_twitch" />
+
+            <ImageButton
+                android:id="@+id/HomeTwicasBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/white"
+                android:contentDescription="@string/twitcas"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_twitcas_filter" />
+
+            <ImageButton
+                android:id="@+id/HomeNiconicoBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/white"
+                android:contentDescription="@string/niconico"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_niconico_filter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+            <RelativeLayout
+                android:id="@+id/HomeApplyLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="40dp">
+                <Button
+                    android:id="@+id/HomeApplyBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply"
+                    android:backgroundTint="#fafafa"
+                    android:textColor="#7f7fff"
+                    android:textSize="20dp"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

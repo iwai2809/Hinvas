@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hinvas.YoutubeApiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-07T17:11:44" hostname="DESKTOP-VHH4UST" time="0.396">
+  <properties/>
+  <testcase name="youtubeApiTest" classname="com.example.hinvas.YoutubeApiTest" time="0.396"/>
+  <system-out><![CDATA[エラー
+エラー
+エラー
+エラー
+エラー
+エラー
+エラー
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
