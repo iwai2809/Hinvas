@@ -5,4 +5,69 @@
     <string name="text_favorite">お気に入り画面に変わりました</string>
     <string name="text_schedule">スケジュール画面に変わりました</string>
     <string name="text_settings">設定画面に変わりました</string>
+    <string name="hinvas">HinVas</string>
+    <string name="HinVas">HinVas</string>
+    <string name="filter">filter</string>
+    <string name="twitcas">twitcas</string>
+    <string name="live">Live配信者</string>
+    <string name="notice">・</string>
+    <string name="twitch">twitch</string>
+    <string name="movie">動画配信者</string>
+    <string name="youtube">youtube</string>
+    <string name="youtube2">youtube2</string>
+    <string name="niconico">niconico</string>
+    <string name="niconico2">niconico2</string>
+    <string name="test_name1">蔦森 拳也</string>
+    <string name="test_name2">でんごろう</string>
+    <string name="test_name3">モンク中嶋</string>
+    <string name="test_name4">ヒヤシンス月森</string>
+    <string name="test_name5">グラス柏次</string>
+    <string name="test_name6">ホライズン西加積</string>
+    <string name="BIGSARU">BIGSARU</string>
+    <string name="filter_button">filter_button</string>
+    <string name="background">背景</string>>
+    <string name="icon">アイコン</string>
+    <string name="n_name_text">〇〇さんが配信を開始しました</string>
+    <string name="n_detail_text">ここに配信のタグ</string>
+    <string name="t_image">サムネイルの画像</string>
+    <string name="t_title_text">ここに配信動画のタイトル</string>
+    <string name="loginbtn">+</string>
+    <string name="notification_empty">通知がありません</string>
+    <string name="subscribers_empty">動画投稿者・配信者を登録して下さい</string>
+    <string name="SearchFilter">検索フィルタ</string>
+    <string name="sort">並べ替え：</string>
+    <string name="ascendingorder">昇順</string>
+    <string name="descendingorder">降順</string>
+    <string name="period">期間：</string>
+    <string name="platform">プラットフォーム</string>
+    <string name="DeleteBtn">deletebtn</string>
+    <string name="apply">適用する</string>
+    <string name="genre">ジャンル：</string>
+    <string name="Registration">登録</string>
+    <string name="フィルタ">フィルタ</string>
+    <string name="back">戻る</string>
+
+    <string-array name="sortspinnerItems">
+        <item>名前順(昇順)</item>
+        <item>名前順(降順)</item>
+    </string-array>
+
+    <string-array name="periodspinnerItems">
+        <item>指定なし</item>
+        <item>今日</item>
+        <item>今週</item>
+        <item>今月</item>
+        <item>今年</item>
+    </string-array>
+
+    <string-array name="homesortspinnerItems">
+        <item>新規順</item>
+        <item>古い順</item>
+    </string-array>
+
+    <string-array name="moviespinnerItems">
+        <item>全て</item>
+        <item>動画</item>
+        <item>配信</item>
+    </string-array>
 </resources>

@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -14,6 +15,30 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // ツイキャスAPIテスト
+        def properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        def CLIENT_ID = properties.getProperty("client_id")
+        def CLIENT_SECRET = properties.getProperty("client_secret")
+        def CALLBACK_URL = properties.getProperty("callback_url")
+        buildConfigField("String", "CLIENT_ID", "\"${CLIENT_ID}\"")
+        buildConfigField("String", "CLIENT_SECRET", "\"${CLIENT_SECRET}\"")
+        buildConfigField("String", "CALLBACK_URL", "\"${CALLBACK_URL}\"")
+        buildConfigField("String", "API_VERSION", "\"2.0\"")
+
+        //テストコード用
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+//        jackOptions {
+//            enabled true
+//        }
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
     }
 
     buildTypes {
@@ -26,27 +51,95 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    viewBinding {
+        enabled = true
+    }
     kotlinOptions {
         jvmTarget = '1.8'
     }
     lintOptions {
         disable "ResourceType"
     }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
 
 }
 
+
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.3.0'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation "com.squareup.okhttp3:okhttp:4.3.1"
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+
+    androidTestImplementation "android.arch.core:core-testing:1.1.1"
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.4'
+    def lifecycle_version = "2.1.0"
+    testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
+
+    implementation 'com.google.android.material:material:1.7.0'
     implementation platform('com.google.firebase:firebase-bom:30.1.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+
+    //テストコードに必要
+    androidTestImplementation 'junit:junit:4.13.2'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestImplementation "android.arch.core:core-testing:1.1.1"
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    testImplementation 'org.robolectric:robolectric:4.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+    testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
+
+
+    // コルーチン
+    def coroutines_version = '0.30.2'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutines_version"
+    implementation "com.google.android.material:material:1.7.0"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.3"
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3")
+
+    implementation "androidx.work:work-runtime-ktx:2.7.1"
+
+    // スワイプ処理
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
 }
 
 apply plugin: 'com.google.gms.google-services'

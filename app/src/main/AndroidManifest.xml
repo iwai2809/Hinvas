@@ -16,24 +16,43 @@
         android:theme="@style/Theme.HinVas"
         tools:targetApi="31">
         <activity
-            android:name=".SettingsActivity"
-            android:exported="false" />
+            android:name=".StreamerAddActivity"
+            android:exported="false">
+        </activity>
+
+        <activity android:name=".FavoriteNoticeListItemActivity"
+            android:exported="false"/>
+
         <activity
-            android:name=".ScheduleActivity"
-            android:exported="false" />
+            android:name=".SearchFilterActivity"
+            android:exported="false"
+            android:label="@string/SearchFilter"/>
         <activity
-            android:name=".FavoriteActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ListActivity"
-            android:exported="false" />
+            android:name=".HomeFilterActivity"
+            android:exported="false"
+            android:label="@string/SearchFilter"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="hinvas.com"
+                    android:path="/callback"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
     </application>

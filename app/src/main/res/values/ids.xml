@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fireStore_test_btn" type="id" />
+    <item name="nicoAPI_test_btn" type="id" />
+    <item name="twitchAPI_test_btn" type="id" />
+    <item name="youtubeAPI_test_btn" type="id" />
+</resources>

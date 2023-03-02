@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/favorite_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_style_notice_list"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="3dp"
+        android:paddingVertical="1dp"
+        android:weightSum="5"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/list_icon"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.5"
+            android:layout_gravity="center"
+            android:contentDescription="通知リストのアイコン（最新の登録した動画・配信のサムネ）"
+            android:src="@drawable/ic_folder"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:paddingStart="5dp"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/list_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingVertical="2dp"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:text="フォルダ名"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+<!--処理が重たいのでコメントアウト-->
+<!--            <TextView-->
+<!--                android:id="@+id/list_item_sum"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:paddingVertical="2dp"-->
+<!--                android:maxLines="1"-->
+<!--                android:textColor="#3E3E3E"-->
+<!--                android:text="通知の本数"-->
+<!--                android:textSize="15sp"-->
+<!--                tools:ignore="HardcodedText" />-->
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
